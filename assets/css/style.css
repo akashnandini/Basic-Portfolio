@@ -80,6 +80,22 @@ nav a{
     
 }
 
+a:link {
+    color: yellow;
+}
+
+a:visited {
+    color: #4aaaa5;
+}
+
+a:hover {
+    color: lightgreen;
+}
+
+a:active {
+    color: hotpink;
+} 
+
 
 
 p{
@@ -123,6 +139,10 @@ form button{
     
 }
 
+button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
 
 .clear-fix{
     clear: both;
@@ -147,6 +167,12 @@ footer{
     padding: 15px;
 }
 
+.portfolio_image:hover #image1 {
+    opacity: 0.3;
+  }
+
+
+
 section h4{
     background: #4aaaa5;
     color:#ffffff;
@@ -164,7 +190,12 @@ section h4{
     
     
 }
-
+#image1:hover
+	{
+		-moz-box-shadow: 0 0 15px #777777;
+		-webkit-box-shadow: 0 0 15px #777777;
+		box-shadow: 0 0 10px #777777;
+	}
 #image2{
     background: url(../images/camera.jpg);
     background-size: cover;
@@ -172,11 +203,25 @@ section h4{
     margin-left: 25px;
 }
 
+#image2:hover
+	{
+		-moz-box-shadow: 0 0 15px #777777;
+		-webkit-box-shadow: 0 0 15px #777777;
+		box-shadow: 0 0 10px #777777;
+	}
+
 #image3{
     background: url(../images/city.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+#image3:hover
+	{
+		-moz-box-shadow: 0 0 15px #777777;
+		-webkit-box-shadow: 0 0 15px #777777;
+		box-shadow: 0 0 10px #777777;
+	}
 
 #image4{
     background: url(../images/computer.jpg);
@@ -184,8 +229,22 @@ section h4{
     background-repeat: no-repeat;
     margin-left: 25px;
 }
+#image4:hover
+	{
+		-moz-box-shadow: 0 0 15px #777777;
+		-webkit-box-shadow: 0 0 15px #777777;
+		box-shadow: 0 0 10px #777777;
+	}
+
 #image5{
     background: url(../images/fork.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+#image5:hover
+	{
+		-moz-box-shadow: 0 0 15px #777777;
+		-webkit-box-shadow: 0 0 15px #777777;
+		box-shadow: 0 0 10px #777777;
+	}
