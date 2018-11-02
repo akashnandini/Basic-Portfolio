@@ -1,0 +1,130 @@
+.{
+    box-sizing: border-box;
+}
+
+body{
+    background: url("../images/background_abstract.png") repeat ;
+    overflow: auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    
+    color:#777777;
+    align-content: center;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+    color: #4aaaa5;
+    font-weight: bold;
+    padding: 30px;
+    border-bottom: 2px solid #ccc;
+    margin:20px 15px 15px 20px;
+    
+    
+   
+}
+
+header{
+    background: #ffffff;
+    border-bottom: 3px solid #ccc;
+    padding: 20px;
+    
+}
+header h1{
+    background: #4aaaa5;    
+    font-size: 30px;
+    padding: 20px;
+    color:#ffffff;
+    display: inline-block;
+
+}
+.header-div{
+    width: 960px;
+    margin: 0 auto; 
+    
+    background: #ffffff;
+    
+    margin-top:25px;
+    
+}
+
+nav{
+    float:right;
+    width: 300px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav a{
+    font-size: 18px;
+    color: #777777;
+    padding: 5px 15px;
+    border-right: 1px solid #4aaaa5;
+    text-decoration: none;
+    
+}
+
+section{
+    margin:20px 15px 15px 20px;
+    
+    
+}
+
+p{
+    font-size:16px;
+    margin:20px 15px 15px 20px;
+}
+
+.image{
+    float: left;
+    margin:20px 15px 15px 20px;
+    border: 1px solid #777777;
+}
+
+form label{
+    font-size: 16px;
+    display: block;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+form input,textarea{
+    width: 95%;
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border:2 px solid #ccc;
+    padding: 4px;
+
+}
+textarea{
+    height: 100px;
+}
+
+form button{
+    background: #4aaaa5;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin:10px 10px;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+
+.clear-fix{
+    clear: both;
+    display: block;
+}
+
+footer{
+    background: #777777;
+    border-top: 3px solid #4aaaa5;
+    text-align: center;
+    padding: 20px;
+    color: #ccc;
+    margin-top:25px;
+}
