@@ -16,24 +16,22 @@ h1,h2,h3,h4,h5,h6{
     font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
     color: #4aaaa5;
     font-weight: bold;
-    padding: 30px;
-    border-bottom: 2px solid #ccc;
-    margin:20px 15px 15px 20px;
     
     
-   
+    
+ 
 }
 
 header{
     background: #ffffff;
     border-bottom: 3px solid #ccc;
-    padding: 20px;
+    margin-bottom: 30px;
     
 }
 header h1{
     background: #4aaaa5;    
     font-size: 30px;
-    padding: 20px;
+    padding: 25px;
     color:#ffffff;
     display: inline-block;
 
@@ -41,11 +39,23 @@ header h1{
 .header-div{
     width: 960px;
     margin: 0 auto; 
-    
     background: #ffffff;
     
-    margin-top:25px;
+}
+
+section{
+    width:960px;
+    margin: 0 auto; 
+    background: #ffffff;
+    padding: 20px;
     
+}
+
+section h2{
+    font-size:20px;
+    padding:15px o;
+    margin-bottom:20px;
+    border-bottom:1px solid #777777;
 }
 
 nav{
@@ -60,28 +70,26 @@ nav ul li{
 }
 
 nav a{
-    font-size: 18px;
+    font-size: 15px;
     color: #777777;
-    padding: 5px 15px;
+    padding: 5px 20px;
     border-right: 1px solid #4aaaa5;
     text-decoration: none;
+    text-align: right;
     
 }
 
-section{
-    margin:20px 15px 15px 20px;
-    
-    
-}
+
 
 p{
     font-size:16px;
-    margin:20px 15px 15px 20px;
+    margin:0px 15px 15px 0px;
+    line-height: 20px;
 }
 
 .image{
     float: left;
-    margin:20px 15px 15px 20px;
+    margin:0px 15px 15px 0px;
     border: 1px solid #777777;
 }
 
